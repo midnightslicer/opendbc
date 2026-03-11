@@ -16,12 +16,26 @@ FW_VERSIONS = {
     (Ecu.engine, 0x7e0, None): [
       b'237106GU3B',
       b'237109HE2B',
-      b'237109HH1A',
     ],
     (Ecu.gateway, 0x18dad0f1, None): [
       b'284U29HE0A',
       b'284U29HF0A',
     ],
+  },
+  CAR.NISSAN_ALTIMA_2023: {
+    (Ecu.fwdCamera, 0x707, None): [
+      b'284N86CA1D',
+    ],
+    (Ecu.eps, 0x742, None): [
+      b'6CA2C\xa9A\x02\x02G8A89P90D6A\x00\x00\x01\x80',
+    ],
+    (Ecu.engine, 0x7e0, None): [
+      b'237109HH1A',
+    ],
+    (Ecu.gateway, 0x18dad0f1, None): [
+      b'284U29HF0A',
+    ],
+
   },
   CAR.NISSAN_LEAF: {
     (Ecu.abs, 0x740, None): [

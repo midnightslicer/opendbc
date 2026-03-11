@@ -72,9 +72,13 @@ class CAR(Platforms):
     NissanCarSpecs(mass=1610, wheelbase=2.705)
   )
   NISSAN_ALTIMA = NissanPlatformConfig(
-    [NissanCarDocs("Nissan Altima 2019-20, 2023-24", car_parts=CarParts.common([CarHarness.nissan_b]))],
+    [NissanCarDocs("Nissan Altima 2019-20, 2024", car_parts=CarParts.common([CarHarness.nissan_b]))],
     NissanCarSpecs(mass=1492, wheelbase=2.824)
   )
+  NISSAN_ALTIMA_2023 = NissanPlatformConfig(
+    [NissanCarDocs("Nissan Altima 2023", car_parts=CarParts.common([CarHarness.nissan_b]))],
+    NissanCarSpecs(mass=1836, wheelbase=2.7)
+    )
 
 
 DBC = CAR.create_dbc_map()
